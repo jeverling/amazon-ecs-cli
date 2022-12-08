@@ -473,7 +473,7 @@ See the `$ ecs-cli compose service` [documentation page](https://docs.aws.amazon
 
 Since there are certain fields in an ECS task definition that do not correspond to fields in a
 Docker Composefile, you can specify those values using the `--ecs-params` flag. Currently, the file
-supports the follow schema:
+supports the following schema:
 
 ```
 version: 1
